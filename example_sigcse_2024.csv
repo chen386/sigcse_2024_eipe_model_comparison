@@ -1,0 +1,4 @@
+subset,qid,code,assumption,example_correct_answers,response,binary_ground_truth,una,c,hl
+train,print_found_if_three_numbers_unique,"def f(x, y, z):
+    if x != y and x != z and y != z:
+        print('found')","Assume that the variables x, y, and z are integers.","['Print the word found if all three numbers are different', ""If the three given numbers are all different, then print 'found'""]",This is an example response.,0,1,0,1
